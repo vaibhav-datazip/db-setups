@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  db2:
+    container_name: db2_luw
+    # The modern Community Edition image from IBM Container Registry
+    image: icr.io/db2_community/db2:latest
+    
+    # REQUIRED for Apple Silicon (M1/M2/M3) to force x86 emulation
+    platform: linux/amd64
+    
+    # REQUIRED for Db2 to manage kernel settings/memory
+    privileged: true
+    
+    restart: unless-stopped
+    
+    ports:
+      # Maps localhost:50000 to container:50000
+      - "50000:50000"
+      
+    environment:
+      # Mandatory: Accept the IBM license
+      - LICENSE=accept
+      
+      # The default instance user (standard is db2inst1)
+      - DB2INSTANCE=db2inst1
+      
+      # SET YOUR PASSWORD HERE
+      - DB2INST1_PASSWORD=StrongPassword123!
+      
+      # Creates a default database named 'testdb' on startup
+      - DBNAME=testdb
+      
+      # Optimization for Mac file system mounting
+      - IS_OSXFS=true
+      
+      # Set to 'true' if you want IBM's sample data (tables like EMPLOYEE, SALES)
+      # Warning: This increases startup time significantly.
+      - TO_CREATE_SAMPLEDB=false 
+      
+      # Ensures the home directory is persistent
+      - PERSISTENT_HOME=false
+
+    volumes:
+      # Persists data to a folder named 'db2_data' in your current directory
+      - ./db2_data_final:/database

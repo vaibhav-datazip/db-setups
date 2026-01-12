@@ -1,0 +1,1 @@
+An error occurred during application initialization, ensure the shared sqllib filesystem is available.  If the filesystem is not accessible from this host, re-issue the command from another host.  On a host with shared filesystem access, refer to the db2diag.log for more information regarding the failure.

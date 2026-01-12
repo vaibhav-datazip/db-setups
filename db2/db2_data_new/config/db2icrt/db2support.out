@@ -1,0 +1,45 @@
+
+
+              _______   D B 2  S u p p o r t   ______
+
+
+This program generates information about a DB2 server, including information
+about its configuration and system environment. The output of this program
+is stored in a file named 'db2support.zip'. If possible, run this program
+while the problem is occurring.
+
+
+For the most complete output, this utility should be invoked with root
+authority. Users with more limited privileges on the system can run this tool,
+however, some of the data collection actions will result in reduced reporting
+and reduced output.
+
+Output file is "/database/config/db2icrt/db2support.zip"
+Time and date of this collection: 2026-01-08-18.25.41.898431
+
+Creating directory /database/config/db2icrt/DB2SUPPORT
+Starting collection on host 742bb6094fa6
+Collecting resources group information
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/bin/lssam
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/bin/lsrsrc
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/bin/lsrsrc
+Collecting user identity information
+Collecting current process information
+Collecting active interprocess communications facilities information
+Collecting system information
+Collecting detailed data on system and hardware errors
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/bin/errpt
+Collecting registry contents
+Collecting GPFS information
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/lpp/mmfs/bin/gpfs.snap
+Collecting configuration, log and trace information for RSCT
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/bin/ctsnap
+Collecting information about installed DB2 products
+Collecting information about state of db2 instance
+Collecting information about DB2 product prerequisites

@@ -1,0 +1,4 @@
+root         1     0  0 18:25 ?        00:00:00 /bin/bash /var/db2_setup/lib/setup_db2_instance.sh
+root      3391     1  0 18:25 ?        00:00:00 /opt/ibm/db2/V12.1/bin/db2support /database/config/db2icrt -install
+root      3834  3391  0 18:25 ?        00:00:00 sh -c /bin/ps -ef |grep db2 > "/database/config/db2icrt/DB2SUPPORT/742bb6094fa6_IIH/ps.out" 2>&1
+root      3836  3834  0 18:25 ?        00:00:00 grep db2

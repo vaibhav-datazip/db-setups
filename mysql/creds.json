@@ -1,0 +1,18 @@
+{
+    "hosts": "localhost",
+    "username": "olake_user",
+    "password": "olake_password",
+    "database": "testdb",
+    "port": 3306,
+    "update_method": {
+        "intial_wait_time": 700
+    },
+    "jdbc_url_params": {
+        "timeout": "10ms"
+    },
+    "tls_skip_verify": false,
+    "root_certificate": "/Users/admin/Desktop/Olake/mysql-ssl-lab/certs/ca.pem",
+    "default_mode": "cdc",
+    "max_threads": 10,
+    "backoff_retry_count": 2
+}

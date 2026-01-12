@@ -1,0 +1,209 @@
+
+==========================================================================
+
+Thu Jan  8 18:25:52 2026
+Checking prerequisites for DB2 installation. Version "12.1.3.0". Operating system "Linux" 
+   
+Validating "kernel level " ... 
+   Required minimum operating system kernel level: "5.14.0". 
+   Actual operating system kernel level: "6.10.14". 
+   Requirement matched. 
+   
+Validating "Linux distribution " ... 
+   Required minimum operating system distribution: "RHEL"; Version: "9"; Service pack: "4". 
+   Actual operating system distribution Version: "9"; Service pack: "6". 
+   Requirement matched. 
+   
+Validating "ksh symbolic link" ... 
+   Requirement matched. 
+    
+Validating "Bin user" ... 
+   Requirement matched. 
+   
+Validating "HOME free space" ... 
+The directory "/root" has enough space on host "742bb6094fa6". 
+   Requirement matched. 
+   
+Validating "libxcrypt-compat" ... 
+   Package (or file) found: "libxcrypt-compat" 
+   Requirement matched. 
+   
+Validating "libcurl.so.4 library" ... 
+   Requirement matched. 
+   
+Validating "C++ Library version " ... 
+   Required minimum C++ library: "libstdc++.so.6" 
+   Standard C++ library is located in the following directory: "/usr/lib64/libstdc++.so.6.0.29". 
+   Actual C++ library: "CXXABI_1.3.1" 
+   Requirement matched. 
+   
+
+Validating "32 bit version of "libstdc++.so.6" " ... 
+   Found the 32 bit "/lib/libstdc++.so.6" in the following directory "/lib". 
+   Requirement matched. 
+   
+Validating "libaio.so version " ... 
+DBT3553I  The db2prereqcheck utility successfully loaded the libaio.so.1 file. 
+   Requirement matched. 
+   
+Validating "libaio.so.1 symbolic link " ... 
+   Requirement matched. 
+   
+Validating "libnuma.so version " ... 
+DBT3610I  The db2prereqcheck utility successfully loaded the libnuma.so.1 file. 
+   Requirement matched. 
+   
+Validating "/lib/libpam.so*" ... 
+   Requirement matched. 
+DBT3533I  The db2prereqcheck utility has confirmed that all installation prerequisites were met. 
+
+==========================================================================
+
+Thu Jan  8 18:25:52 2026
+Checking prerequisites for DB2 installation with the DB2 pureScale Feature.  Version: "12.1.3.0".  Operating system: "Linux". 
+   
+Validating "kernel level " ... 
+   Required minimum operating system kernel level: "5.14.0". 
+   Actual operating system kernel level: "6.10.14". 
+   Requirement matched. 
+   
+Validating "Linux distribution " ... 
+   Required minimum operating system distribution: "RHEL"; Version: "9"; Service pack: "4". 
+   Actual operating system distribution Version: "9"; Service pack: "6". 
+   Requirement matched. 
+   
+Validating "ksh symbolic link" ... 
+   Requirement matched. 
+    
+Validating "Bin user" ... 
+   Requirement matched. 
+   
+Validating "HOME free space" ... 
+The directory "/root" has enough space on host "742bb6094fa6". 
+   Requirement matched. 
+   
+Validating "libxcrypt-compat" ... 
+   Package (or file) found: "libxcrypt-compat" 
+   Requirement matched. 
+   
+Validating "libc.so version " ... 
+   glibc library is located in the following directory "/usr/lib64/libcrypto.so.3.2.2". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcrypto.so.3.2.2". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcrypto.so.3.2.2". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcrypto.so.3.2.2". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcrypto.so.3.2.2". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcrypt.so.2.0.0". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcrypt.so.2.0.0". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcrypt.so.2.0.0". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcrypt.so.2.0.0". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcrypt.so.2.0.0". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcap.so.2.48". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcap.so.2.48". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcap.so.2.48". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcap.so.2.48". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libcap.so.2.48". 
+   Required minimum glibc library version: "2.4.0" 
+   glibc library is located in the following directory "/usr/lib64/libc.so.6". 
+   Required minimum glibc library version: "2.4.0" 
+   Actual glibc library version: "2.34.0" 
+   Requirement matched. 
+   
+Validating "gcc" ... 
+   Package (or file) found: "gcc" 
+   Requirement matched. 
+   
+Validating "binutils" ... 
+   Package (or file) found: "binutils" 
+   Requirement matched. 
+   
+Validating "cpp" ... 
+   Package (or file) found: "cpp" 
+   Requirement matched. 
+   
+Validating "gcc-c++" ... 
+   Package (or file) found: "gcc-c++" 
+   Requirement matched. 
+   
+Validating "net-tools" ... 
+   Package (or file) found: "net-tools" 
+   Requirement matched. 
+   
+Validating "m4" ... 
+DBT3507E  The db2prereqcheck utility failed to find the following package or file: "m4". 
+   ERROR : Requirement not matched. 
+   
+Validating "NetworkManager-config-server" ... 
+DBT3507E  The db2prereqcheck utility failed to find the following package or file: "NetworkManager-config-server". 
+   ERROR : Requirement not matched. 
+   
+Validating "kernel-devel" ... 
+DBT3507E  The db2prereqcheck utility failed to find the following package or file: "kernel-devel". 
+   ERROR : Requirement not matched. 
+   
+Validating "kernel-headers" ... 
+   Package (or file) found: "kernel-headers" 
+DBT3617E  The db2prereqcheck utility detected that a "kernel-headers" package with a version that matches the system "kernel" level "6.10.14-linuxkit" is not installed. 
+   ERROR : Requirement not matched. 
+   
+Validating "file" ... 
+   Package (or file) found: "file" 
+   Requirement matched. 
+   
+Validating "perl" ... 
+DBT3507E  The db2prereqcheck utility failed to find the following package or file: "perl". 
+   ERROR : Requirement not matched. 
+   
+Validating "libgomp" ... 
+   Package (or file) found: "libgomp" 
+   Requirement matched. 
+   
+Validating "make" ... 
+   Package (or file) found: "make" 
+   Requirement matched. 
+   
+Validating "libgcc" ... 
+   Package (or file) found: "libgcc" 
+   Requirement matched. 
+   
+Validating "patch" ... 
+DBT3507E  The db2prereqcheck utility failed to find the following package or file: "patch". 
+   ERROR : Requirement not matched. 
+   
+Validating "elfutils-libelf-devel" ... 
+DBT3507E  The db2prereqcheck utility failed to find the following package or file: "elfutils-libelf-devel". 
+   ERROR : Requirement not matched. 
+    
+Validating "python3 version checking" ... 
+Found package "Python3" on host "742bb6094fa6". 
+   Requirement matched. 
+   
+Validating "ksh" ... 
+   Required minimum version for "ksh": "1.0.0~beta.1" 
+   Actual version of package: "1.0.6" 
+   Requirement matched. 
+   
+Validating "chronyd" ... 
+   Required minimum version for "chronyd": "2.2.1" 
+   WARNING : Requirement not matched. 
+   One of ntp or chrony is required to be on the system. 
+    
+Validating "db2prereqPCMK" ... 
+DBT3623W  The db2prereqcheck utility failed to find db2prereqPCMK file, make sure you run db2/<platform>/pcmk/db2prereqPCMK manually on all the hosts. 
+   ERROR : Requirement not matched. 
+   
+Validating "free space" ... 
+The directory "/tmp" has enough spa

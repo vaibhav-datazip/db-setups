@@ -1,0 +1,10 @@
+# Database data directories
+db2/db2_data/
+db2/db2_data_new/
+db2/db2_data_final/
+
+# MySQL data
+mysql/data/
+
+# OS files
+.DS_Store

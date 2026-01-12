@@ -1,0 +1,22 @@
+
+Db2 Setup log file started at:  Thu Jan 08 18:25:20 2026 UTC
+============================================================
+
+Operating system information: Linux 6.10.14-linuxkit.#1 SMP Thu Mar 20 16:32:56 UTC 2025 x86_64 
+ERROR: The home directory "/database/config/db2inst1" does not exist for the user name
+"db2inst1". Create the specified home directory, and re-run the command.
+
+ERROR: The "db2icrt" command failed. Ensure that errors reported in the log
+file are fixed, then rerun the command.
+
+
+Post-installation instructions 
+-------------------------------
+
+Required steps: 
+There were some errors detected during Db2 installation. To collect the information files from the system, run the "db2support -install" command with the proper options before reporting the problem to IBM service. For information regarding the usage of the db2support tool, check the Db2 Information Center. 
+
+
+Db2 Setup log file finished at:  Thu Jan 08 18:25:41 2026 UTC
+============================================================
+

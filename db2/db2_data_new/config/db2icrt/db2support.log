@@ -1,0 +1,54 @@
+
+2026-01-08-18.25.46.373514+000 I1E392             LEVEL: Warning
+PID     : 3391                 TID : 140737474291520
+FUNCTION: DB2 Common, IBM DB2SUPPORT API, suppInstallPerformCollectionOnHost, probe:60
+MESSAGE : ECF=0x9000001A File doesn't exist
+DATA #1 : String, 114 bytes
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/bin/lssam
+
+
+2026-01-08-18.25.46.375846+000 I394E393           LEVEL: Warning
+PID     : 3391                 TID : 140737474291520
+FUNCTION: DB2 Common, IBM DB2SUPPORT API, suppInstallPerformCollectionOnHost, probe:60
+MESSAGE : ECF=0x9000001A File doesn't exist
+DATA #1 : String, 115 bytes
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/bin/lsrsrc
+
+
+2026-01-08-18.25.46.376345+000 I788E393           LEVEL: Warning
+PID     : 3391                 TID : 140737474291520
+FUNCTION: DB2 Common, IBM DB2SUPPORT API, suppInstallPerformCollectionOnHost, probe:60
+MESSAGE : ECF=0x9000001A File doesn't exist
+DATA #1 : String, 115 bytes
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/bin/lsrsrc
+
+
+2026-01-08-18.25.46.624744+000 I1182E392          LEVEL: Warning
+PID     : 3391                 TID : 140737474291520
+FUNCTION: DB2 Common, IBM DB2SUPPORT API, suppInstallPerformCollectionOnHost, probe:60
+MESSAGE : ECF=0x9000001A File doesn't exist
+DATA #1 : String, 114 bytes
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/bin/errpt
+
+
+2026-01-08-18.25.46.807074+000 I1575E405          LEVEL: Warning
+PID     : 3391                 TID : 140737474291520
+FUNCTION: DB2 Common, IBM DB2SUPPORT API, suppInstallPerformCollectionOnHost, probe:60
+MESSAGE : ECF=0x9000001A File doesn't exist
+DATA #1 : String, 127 bytes
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/lpp/mmfs/bin/gpfs.snap
+
+
+2026-01-08-18.25.46.807859+000 I1981E393          LEVEL: Warning
+PID     : 3391                 TID : 140737474291520
+FUNCTION: DB2 Common, IBM DB2SUPPORT API, suppInstallPerformCollectionOnHost, probe:60
+MESSAGE : ECF=0x9000001A File doesn't exist
+DATA #1 : String, 115 bytes
+   The following file was not found or could not be executed during diagnostic
+   data collection: /usr/bin/ctsnap
+
