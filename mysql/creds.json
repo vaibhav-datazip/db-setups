@@ -11,7 +11,7 @@
         "timeout": "10ms"
     },
     "tls_skip_verify": false,
-    "root_certificate": "/Users/admin/Desktop/Olake/mysql-ssl-lab/certs/ca.pem",
+    "root_certificate": "/Users/admin/Desktop/Olake/database-setups/mysql/certs/ca.pem",
     "default_mode": "cdc",
     "max_threads": 10,
     "backoff_retry_count": 2

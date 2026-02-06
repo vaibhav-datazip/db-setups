@@ -1,0 +1,15 @@
+services:
+  oracle-db:
+    image: container-registry.oracle.com/database/free:latest
+    platform: linux/amd64
+    container_name: oracle-db
+    ports:
+      - "1521:1521"  # SQL*Net Port
+    environment:
+      - ORACLE_PASSWORD=YourSecurePassword123
+    volumes:
+      - oracle_data:/opt/oracle/oradata
+    restart: always
+
+volumes:
+  oracle_data:
