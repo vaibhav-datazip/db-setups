@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  # 1. STORAGE (Mocking S3)
+  minio:
+    image: minio/minio
+    container_name: local-s3
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      # CHANGED: New Credentials
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: password
+    command: server /data --console-address ":9001"
+
+  # 2. METADATA (Mocking Glue/Starburst)
+  moto:
+    image: motoserver/moto
+    container_name: local-glue
+    ports:
+      - "5001:5001"   # Using Port 5001
+    environment:
+      - MOTO_PORT=5001
+      - MOTO_SERVICE=glue
+      - INITIAL_NO_AUTH_ACTION_COUNT=10
+
+  # 3. COMPUTE (Spark)
+  spark:
+    image: tabulario/spark-iceberg:latest
+    container_name: local-spark
+    depends_on:
+      - minio
+      - moto
+    ports:
+      - "8888:8888"
+    environment:
+      - AWS_REGION=us-east-1
+      # CHANGED: Spark's default environment AWS keys
+      - AWS_ACCESS_KEY_ID=admin
+      - AWS_SECRET_ACCESS_KEY=password
+    volumes:
+      - ./notebooks:/home/iceberg/notebooks

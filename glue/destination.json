@@ -1,0 +1,17 @@
+{
+    "type": "ICEBERG",
+    "writer": {
+        "catalog_type": "glue",
+        "catalog_name": "olake_test",
+        "iceberg_s3_path": "s3://warehouse/olake_test_table",
+        "aws_region": "us-east-1",
+        "aws_access_key": "admin",
+        "aws_secret_key": "password",
+        "s3_endpoint": "http://localhost:9000",
+        "s3_path_style": true,
+        "glue_endpoint": "http://localhost:5001",
+        "glue_access_key": "glue_user",
+        "glue_secret_key": "glue_pass",
+        "glue_catalog_id": "optional_id"
+    }
+}
